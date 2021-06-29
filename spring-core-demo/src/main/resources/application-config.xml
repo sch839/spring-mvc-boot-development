@@ -5,11 +5,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="clients" class="com.acme.dbo.dao.ClientRepositoryStub">
-        <constructor-arg value="client" />
-    </bean>
+    <context:annotation-config />
+    <context:component-scan base-package="com.acme.dbo" />
+    <context:property-placeholder location="classpath:application.properties"/>
 
-    <bean class="com.acme.dbo.service.ClientService">
-        <constructor-arg ref="clients" />
-    </bean>
 </beans>
