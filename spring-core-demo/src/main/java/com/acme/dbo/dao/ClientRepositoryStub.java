@@ -4,10 +4,11 @@ import com.acme.dbo.domain.Client;
 import com.sun.tools.javac.util.List;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
 
-@Component
+@Repository
 public class ClientRepositoryStub implements ClientRepository {
     private String clientsName;
 
