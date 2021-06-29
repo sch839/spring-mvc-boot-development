@@ -29,7 +29,7 @@ Live coding demo
 - [ ] Разрешение зависимостей через DI и их контекстная подмена
 - [ ] Понятие [конфигурации](https://www.tutorialspoint.com/spring/spring_java_based_configuration.htm) и [контекста](https://spring.io/understanding/application-context)
 - [ ] Концепция AOP и реализация ключевых задач фреймворка с помощью proxies
-- [ ] Обзор [модулей Spring](https://docs.spring.io/spring/docs/5.0.0.RC3/spring-framework-reference/overview.html)
+- [ ] Обзор [модулей Spring](https://docs.spring.io/spring-framework/docs/5.0.0.RC3/spring-framework-reference/overview.html#overview-modules)
 - [ ] Поддержка в IDEA Ultimate
 - [ ] Что дает Spring Boot
 
